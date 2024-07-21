@@ -2,7 +2,7 @@ repos:
   - repo: local
     hooks:
       - id: regenerate-requirements
-        name: Regenerate requirements.txt
+        name: Regenerate requirements.txt using pipreqs
         entry: python generate_requirements.py
         language: system
         always_run: true
